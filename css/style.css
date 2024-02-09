@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.605),rgba(255, 166, 0, 0.616),rgba(255, 255, 0, 0.616),rgba(0, 128, 0, 0.627),rgba(0, 0, 255, 0.605),rgba(76, 0, 130, 0.595),rgba(238, 130, 238, 0.644));
+    font-family: 'Almendra SC', serif;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.cardall{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.scroll{
+    border: 5px dashed black;
+    border-radius: 10px;
+}
+
+.firstnav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.firstnav .right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.paragraph .para p{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgba(221, 19, 23, 0.605),rgba(255, 0, 187, 0.616));
+}
+
+.abc p{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgba(19, 211, 221, 0.605),rgba(0, 255, 123, 0.616));
+    font-size: larger;
+}
+
+.greeting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    font-size: 5rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: black;
+}
+
+.blank{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
